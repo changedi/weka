@@ -1,0 +1,17 @@
+Tester:     weka.experiment.PairedCorrectedTTester
+Analysing:  Percent_correct
+Datasets:   2
+Resultsets: 6
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       09-9-20 ÏÂÎç2:22
+
+
+>-<   >   < Resultset
+  9   9   0 functions.LibSVM '-S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.0010 -P 0.1' 14172
+  7   8   1 bayes.HNB '' -4503874444306113214
+  1   5   4 meta.ClassificationViaRegression '-W trees.M5P -- -M 4.0' 4500023123618669859
+ -1   4   5 lazy.LBR '' 5648559277738985156
+ -7   1   8 misc.OLM '-S 1 -C REG -A MEAN -N EUCL -E MIN' 3722951802290935192
+ -9   0   9 trees.J48 '-C 0.25 -M 2' -217733168393644444
+

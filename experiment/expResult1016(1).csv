@@ -1,0 +1,22 @@
+Tester:     weka.experiment.PairedCorrectedTTester
+Analysing:  Percent_correct
+Datasets:   2
+Resultsets: 3
+Confidence: 0.05 (two tailed)
+Sorted by:  -
+Date:       09-10-16 ÏÂÎç3:53
+
+
+Dataset                   (1) trees.J4 | (2) funct (3) bayes
+------------------------------------------------------------
+test_1                   (100)   54.77 |   74.49 v   71.09 v
+test_1_new               (100)   79.77 |   81.51     83.97 v
+------------------------------------------------------------
+                               (v/ /*) |   (1/1/0)   (2/0/0)
+
+
+Key:
+(1) trees.J48 '-C 0.25 -M 2' -217733168393644444
+(2) functions.LibSVM '-S 0 -K 2 -D 3 -G 0.0 -R 0.0 -N 0.5 -M 40.0 -C 1.0 -E 0.0010 -P 0.1' 14172
+(3) bayes.HNB '' -4503874444306113214
+

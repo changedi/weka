@@ -1,0 +1,82 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last}
+@attribute Key_Run {1,2,3,4,5,6,7,8,9,10}
+@attribute Key_Scheme {weka.classifiers.bayes.BayesNet}
+@attribute Key_Scheme_options {'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5'}
+@attribute Key_Scheme_version_ID {746037443258775954}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Area_under_ROC numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Summary string
+@attribute measureExtraArcs numeric
+@attribute measureMissingArcs numeric
+@attribute measureReversedArcs numeric
+@attribute measureDivergence numeric
+@attribute measureBayesScore numeric
+@attribute measureBDeuScore numeric
+@attribute measureMDLScore numeric
+@attribute measureAICScore numeric
+@attribute measureEntropyScore numeric
+
+@data
+
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,1,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,2,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,3,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,4,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,5,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,6,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,7,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,8,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,9,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0.015,0,0.015625,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_new-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,10,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,652,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0.016,0,0.015625,0,336643,235065,17860,?,0,0,0,0,-29581.500089,-64026.413363,-54974.190045,-41325.734287,-35232.734287
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,1,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,2,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0.016,0,0.015625,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,3,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,4,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0.016,0,0.015625,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,5,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0.015,0,0.015625,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,6,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0.015,0,0.015625,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,7,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,8,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0.015,0,0.015625,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,9,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0,0,0,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
+sbir_bayes-weka.filters.unsupervised.attribute.Discretize-O-B10-M-1.0-Rfirst-last,10,weka.classifiers.bayes.BayesNet,'-D -Q weka.classifiers.bayes.net.search.local.K2 -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5',746037443258775954,20090919.1318,1137,0,0,0,0,?,?,?,1,?,?,?,?,0,0,0,?,?,?,0,?,0,0,0,0,0,0,0,0,0,0,0,0,?,0.015,0,0.015625,0,483682,387498,17884,?,0,0,0,0,-55826.807309,-84971.179958,-78320.831624,-64196.953174,-58587.953174
