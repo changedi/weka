@@ -420,15 +420,22 @@ public class ClusterEvaluation implements Serializable, RevisionHandler {
 		// add by zunyuan.jy
 		for (i = 0; i < inst.numInstances(); i++) {
 			instance = inst.instance(i);
-			int oriClass = (int) instance.classValue();
+			int oriClass = (int) instance.classValue();			
 			if (oriClass != m_classToCluster[(int) m_clusterAssignments[i]]) {
+				String oriClassString = instance.classAttribute().value(oriClass);
+				String targetClassString = "";
+				if(m_classToCluster[(int) m_clusterAssignments[i]] == -1){
+					targetClassString = "no class to assign";
+				} else{
+					targetClassString = instance.classAttribute().value(m_classToCluster[(int) m_clusterAssignments[i]]);
+				}
 				m_clusteringResults
 						.append("\nInst "
 								+ (i + 1)
 								+ " manual class:"
-								+ (oriClass + 1)
+								+ oriClassString
 								+ " algorithm class:"
-								+ (m_classToCluster[(int) m_clusterAssignments[i]] + 1));
+								+ targetClassString);
 			}
 		}
 		// end zunyuan.jy
