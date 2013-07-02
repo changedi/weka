@@ -331,6 +331,16 @@ public class ClusterEvaluation implements Serializable, RevisionHandler {
 
 		if (hasClass)
 			evaluateClustersWithRespectToClass(test, testFileName);
+		// add by zunyuan.jy
+		else {
+			for (i = 0; i < test.numInstances(); i++) {
+				inst = test.instance(i);		
+				m_clusteringResults.append("\nInst " + (i + 1)
+						+ " algorithm class:" + m_clusterAssignments[i]);
+
+			}
+		}
+		// end zunyuan.jy
 	}
 
 	/**
